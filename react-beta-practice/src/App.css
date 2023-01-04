@@ -3,13 +3,17 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 4vmin;
+  //margin-bottom: 10em;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 2s;
+    animation: App-logo-spin infinite 2s linear;
+  }
+  .Logo-container {
+    animation: App-logo-spin infinite 5s;
   }
 }
 
@@ -37,7 +41,11 @@
   }
 }
 
-.title {
-  margin-top: -100px;
-  margin-bottom: 100px;
+.Logo-container {
+  display: flex;
+  justify-content: center;
+
+  /* align-items: center; */
+  height: 10em;
+  width: 10em;
 }

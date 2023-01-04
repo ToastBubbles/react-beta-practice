@@ -7,7 +7,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1 className="title">Class exercises</h1>
-        <img src={logo} className="App-logo" alt="logo" />
+        <div className="Logo-container">
+          <img src={logo} className="App-logo" alt="logo" />
+        </div>
         <ExerciseBody />
       </header>
     </div>
