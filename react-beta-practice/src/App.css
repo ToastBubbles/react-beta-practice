@@ -15,6 +15,42 @@
   .Logo-container {
     animation: App-logo-spin infinite 3s;
   }
+  /* .Segment {
+    animation: Color-anim2 infinite 3s;
+  } */
+  .s5 {
+    animation: Color-anim2 infinite 3s;
+    animation-delay: 0.5s;
+  }
+  .s6 {
+    animation: Color-anim3 infinite 3s;
+    animation-delay: 0.5s;
+  }
+  .s7 {
+    animation: Color-anim3 infinite 3s;
+    animation-delay: 0.8s;
+  }
+  .s8 {
+    animation: Color-anim2 infinite 3s;
+    animation-delay: 0.8s;
+  }
+  .s1 {
+    animation: Color-anim infinite 3s;
+    animation-delay: 1.3s;
+  }
+  .s2 {
+    animation: Color-anim infinite 3s;
+    animation-delay: 1s;
+  }
+  .s3 {
+    animation: Color-anim infinite 3s;
+    animation-delay: 1s;
+  }
+  .s4 {
+    animation: Color-anim infinite 3s;
+    animation-delay: 0.6s;
+    /* animation-delay: 0.6s; */
+  }
 }
 
 .App-header {
@@ -48,4 +84,111 @@
   /* align-items: center; */
   height: 10em;
   width: 10em;
+}
+.Segment {
+  /* display: inline; */
+  position: absolute;
+  background: linear-gradient(
+    0deg,
+    #33333300,
+    #33333300,
+    #33333300,
+    #33333300,
+    #06f3ff,
+    #ff9191,
+    #06f3ff,
+    #33333300,
+    #33333300,
+    #33333300,
+    #33333300
+  );
+  /* background-color: #06f3ff30; */
+  background-size: 400% 400%;
+  /* height: 400px; */
+  width: 5px;
+}
+
+.s1 {
+  left: 170px;
+  top: 100px;
+  bottom: 0;
+}
+.s2 {
+  left: 0;
+  top: 50px;
+  bottom: 50px;
+}
+.s3 {
+  right: 0;
+  top: 50px;
+  bottom: 50px;
+}
+.s4 {
+  right: 170px;
+  bottom: 100px;
+  top: 0;
+}
+.Box-container {
+  position: relative;
+  height: 400px;
+  width: 400px;
+}
+.s5 {
+  height: 230px;
+  transform: rotate(77deg);
+  transform-origin: bottom;
+  bottom: 350px;
+}
+.s6 {
+  height: 180px;
+  transform: rotate(-73deg);
+  transform-origin: top;
+  top: -2px;
+  left: 224px;
+}
+
+.s7 {
+  height: 180px;
+  transform: rotate(-73deg);
+  transform-origin: top;
+  top: 50px;
+  left: 0px;
+}
+.s8 {
+  height: 230px;
+  transform: rotate(77deg);
+  transform-origin: bottom;
+  bottom: 298px;
+  left: 170px;
+}
+
+@keyframes Color-anim {
+  0% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+@keyframes Color-anim2 {
+  0% {
+    background-position: 0% 100%;
+  }
+  10% {
+    background-position: 0% 100%;
+  }
+  75% {
+    background-position: 0% 0%;
+  }
+}
+@keyframes Color-anim3 {
+  0% {
+    background-position: 0% 100%;
+  }
+  10% {
+    background-position: 0% 100%;
+  }
+  70% {
+    background-position: 0% 0%;
+  }
 }
