@@ -1,11 +1,9 @@
-export default function ExerciseBody() {
-  let problemNumber = 2;
-
+export default function ExerciseBody({ problem }) {
   return (
     <div>
-      <div>Problem Number: {problemNumber}</div>
+      <div>Problem Number: {problem}</div>
       Answer:
-      <div>{CalculateAnswer(problemNumber)}</div>
+      <div>{CalculateAnswer(problem)}</div>
     </div>
   );
 }
@@ -38,6 +36,7 @@ function PrintShrimp() {
   return "Shrimpers";
 }
 
+/*****************************************Exercise 1***********************************/
 function FilterListRunner(index) {
   let a1 = [1, 2, "a", "b"];
   let a2 = [1, "a", "b", 0, 15];
@@ -65,3 +64,4 @@ function FilterList(arr) {
   console.log(arr);
   return "[" + arr.join(",") + "]";
 }
+/*****************************************Exercise 2***********************************/

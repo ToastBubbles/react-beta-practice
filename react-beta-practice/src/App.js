@@ -10,7 +10,7 @@ function App() {
         <div className="Logo-container">
           <img src={logo} className="App-logo" alt="logo" />
         </div>
-        <ExerciseBody />
+        <ExerciseBody problem={2} />
       </header>
     </div>
   );
