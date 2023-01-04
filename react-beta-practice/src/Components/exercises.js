@@ -1,5 +1,5 @@
 export default function ExerciseBody() {
-  let problemNumber = 0;
+  let problemNumber = 1;
   return (
     <div>
       <div>Problem Number: {problemNumber}</div>
@@ -10,11 +10,19 @@ export default function ExerciseBody() {
 }
 
 function CalculateAnswer(problemNum) {
-  if (problemNum === 1) {
-    return PrintShrimp();
-  } else if (problemNum === 2) {
-  } else {
-    return "No solution";
+  switch (problemNum) {
+    case 1:
+      return PrintShrimp();
+    case 2:
+      return PrintShrimp();
+    case 3:
+      return PrintShrimp();
+    case 4:
+      return PrintShrimp();
+    case 5:
+      return PrintShrimp();
+    default:
+      return "No solution";
   }
 }
 
