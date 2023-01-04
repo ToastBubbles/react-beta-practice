@@ -51,6 +51,22 @@
     animation-delay: 0.6s;
     /* animation-delay: 0.6s; */
   }
+  .s9 {
+    animation: Color-anim2 infinite 3s;
+    animation-delay: 0.9s;
+  }
+  .s10 {
+    animation: Color-anim3 infinite 3s;
+    animation-delay: 0.9s;
+  }
+  .s11 {
+    animation: Color-anim2 infinite 3s;
+    animation-delay: 1.3s;
+  }
+  .s12 {
+    animation: Color-anim3 infinite 3s;
+    animation-delay: 1.3s;
+  }
 }
 
 .App-header {
@@ -102,7 +118,7 @@
     #33333300,
     #33333300
   );
-  /* background-color: #06f3ff30; */
+  background-color: #06f3ff05;
   background-size: 400% 400%;
   /* height: 400px; */
   width: 5px;
@@ -161,6 +177,35 @@
   bottom: 298px;
   left: 170px;
 }
+.s9 {
+  height: 230px;
+  transform: rotate(77deg);
+  transform-origin: bottom;
+  bottom: 50px;
+  left: 0px;
+}
+.s10 {
+  height: 180px;
+  transform: rotate(-73deg);
+  transform-origin: bottom;
+  bottom: 50px;
+  right: 0px;
+}
+
+.s11 {
+  height: 230px;
+  transform: rotate(77deg);
+  transform-origin: bottom;
+  bottom: 0px;
+  left: 170px;
+}
+.s12 {
+  height: 180px;
+  transform: rotate(-73deg);
+  transform-origin: bottom;
+  bottom: 0px;
+  left: 170px;
+}
 
 @keyframes Color-anim {
   0% {
@@ -189,6 +234,18 @@
     background-position: 0% 100%;
   }
   70% {
+    background-position: 0% 0%;
+  }
+}
+@keyframes Color-anim4 {
+  0% {
+    background-position: 0% 100%;
+  }
+  10% {
+    background-position: 0% 100%;
+  }
+
+  100% {
     background-position: 0% 0%;
   }
 }

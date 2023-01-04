@@ -22,6 +22,9 @@ function App() {
           <div className="Segment s8"></div>
 
           <div className="Segment s9"></div>
+          <div className="Segment s10"></div>
+          <div className="Segment s11"></div>
+          <div className="Segment s12"></div>
           {/* <svg width="500" height="500">
             <defs>
               <linearGradient
