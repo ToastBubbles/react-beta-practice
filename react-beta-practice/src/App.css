@@ -98,6 +98,7 @@
   justify-content: center;
 
   /* align-items: center; */
+  background-color: #06f3ff;
   height: 10em;
   width: 10em;
 }
@@ -121,10 +122,95 @@
   background-color: #06f3ff05;
   background-size: 400% 400%;
   /* height: 400px; */
-  width: 5px;
+  width: 1%;
+}
+.Box-container {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  /* background-color: #3c4647; */
 }
 
 .s1 {
+  left: 42.5%;
+  top: 25%;
+  bottom: 0%;
+}
+.s2 {
+  left: 0%;
+  top: 12.5%;
+  bottom: 12.5%;
+}
+.s3 {
+  right: 0%;
+  top: 12.5%;
+  bottom: 12.5%;
+}
+.s4 {
+  right: 42.5%;
+  bottom: 25%;
+  top: 0%;
+}
+
+.s5 {
+  height: 57.5%;
+  transform: rotate(77deg);
+  transform-origin: bottom;
+  bottom: 87.5%;
+}
+.s6 {
+  height: 45%;
+  transform: rotate(-73deg);
+  transform-origin: top;
+  top: -0.5%;
+  left: 56%;
+}
+
+.s7 {
+  height: 45%;
+  transform: rotate(-73deg);
+  transform-origin: top;
+  top: 12.5%;
+  left: 0%;
+}
+.s8 {
+  height: 57.5%;
+  transform: rotate(77deg);
+  transform-origin: bottom;
+  bottom: 74.5%;
+  left: 42.5%;
+}
+.s9 {
+  height: 57.5%;
+  transform: rotate(77deg);
+  transform-origin: bottom;
+  bottom: 12.5%;
+  left: 0%;
+}
+.s10 {
+  height: 45%;
+  transform: rotate(-73deg);
+  transform-origin: bottom;
+  bottom: 12.5%;
+  right: 0%;
+}
+
+.s11 {
+  height: 57.5%;
+  transform: rotate(77deg);
+  transform-origin: bottom;
+  bottom: 0%;
+  left: 42.5%;
+}
+.s12 {
+  height: 45%;
+  transform: rotate(-73deg);
+  transform-origin: bottom;
+  bottom: 0%;
+  left: 42.5%;
+}
+
+/* .s1 {
   left: 170px;
   top: 100px;
   bottom: 0;
@@ -144,11 +230,7 @@
   bottom: 100px;
   top: 0;
 }
-.Box-container {
-  position: relative;
-  height: 400px;
-  width: 400px;
-}
+
 .s5 {
   height: 230px;
   transform: rotate(77deg);
@@ -205,7 +287,7 @@
   transform-origin: bottom;
   bottom: 0px;
   left: 170px;
-}
+} */
 
 @keyframes Color-anim {
   0% {

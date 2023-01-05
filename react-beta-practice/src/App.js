@@ -25,57 +25,6 @@ function App() {
           <div className="Segment s10"></div>
           <div className="Segment s11"></div>
           <div className="Segment s12"></div>
-          {/* <svg width="500" height="500">
-            <defs>
-              <linearGradient
-                id="e"
-                x1="40"
-                y1="210"
-                x2="460"
-                y2="290"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stop-color="steelblue" offset="0" />
-                <stop stop-color="red" offset="1" />
-              </linearGradient>
-            </defs>
-            <line
-              x1="0"
-              y1="50"
-              x2="230"
-              y2="0"
-              stroke="url(#e)"
-              stroke-width="30"
-              className="line"
-            />
-            <line
-              x1="230"
-              y1="0"
-              x2="400"
-              y2="50"
-              stroke="url(#e)"
-              stroke-width="30"
-              className="line"
-            />
-            <line
-              x1="170"
-              y1="100"
-              x2="400"
-              y2="50"
-              stroke="url(#e)"
-              stroke-width="30"
-              className="line"
-            />
-            <line
-              x1="170"
-              y1="100"
-              x2="0"
-              y2="50"
-              stroke="url(#e)"
-              stroke-width="30"
-              className="line"
-            />
-          </svg> */}
         </div>
         <ExerciseBody problem={2} />
       </header>
