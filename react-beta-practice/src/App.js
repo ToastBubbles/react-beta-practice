@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import ExerciseBody from "./Components/exercises";
+import Box from "./Components/box";
 
 function App() {
   return (
@@ -10,22 +11,7 @@ function App() {
         {/* <div className="Logo-container">
           <img src={logo} className="App-logo" alt="logo" />
         </div> */}
-        <div className="Box-container">
-          <div className="Segment s1"></div>
-          <div className="Segment s2"></div>
-          <div className="Segment s3"></div>
-          <div className="Segment s4"></div>
-
-          <div className="Segment s5"></div>
-          <div className="Segment s6"></div>
-          <div className="Segment s7"></div>
-          <div className="Segment s8"></div>
-
-          <div className="Segment s9"></div>
-          <div className="Segment s10"></div>
-          <div className="Segment s11"></div>
-          <div className="Segment s12"></div>
-        </div>
+       <Box />
         <ExerciseBody problem={2} />
       </header>
     </div>
