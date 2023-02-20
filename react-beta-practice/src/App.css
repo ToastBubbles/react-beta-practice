@@ -7,6 +7,9 @@
 
   pointer-events: none;
 }
+body {
+  overflow: hidden;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -92,6 +95,12 @@
     transform: rotate(360deg);
   }
 }
+.boxmamma {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 
 .Logo-container {
   display: flex;
@@ -126,8 +135,11 @@
 }
 .Box-container {
   position: relative;
-  height: 500px;
-  width: 500px;
+  height: 100px;
+  width: 100px;
+  animation: spin 8s linear;
+  animation-iteration-count: infinite;
+
   /* background-color: #3c4647; */
 }
 
@@ -288,6 +300,15 @@
   bottom: 0px;
   left: 170px;
 } */
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 @keyframes Color-anim {
   0% {
